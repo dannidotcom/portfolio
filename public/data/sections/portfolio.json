@@ -1,0 +1,167 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+
+        "fr": {
+            "title": "Portfolio",
+            "title_long_prefix": "Découvrez",
+            "title_long": "Mon **Portfolio**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Apps"},
+                        "fr": {"singular": "App", "plural": "Apps"}
+                        
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"},
+                        "fr": {"singular": "Site web", "plural": "Web"}
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {"singular": "Utility", "plural": "Utilities"},
+                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"}
+                    }
+                }
+            ],
+
+            "items": [
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "images/pictures/project-logo-3.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com"},
+                        {"faIcon": "fa-brands fa-npm", "href": "https://npm.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=32XsfeIX_rM",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "BrainPulse",
+                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
+                            "tags": ["API", "REST", "Backend"]
+                        },
+                        "fr": {
+                            "title": "BrainPulse",
+                            "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
+                            "tags": ["API", "REST", "Backend"]
+                        }
+                    }
+                },
+
+                
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/projet-aro-logo.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:7",
+                            "images": [
+                                "images/pictures/projet-aro01.png",
+                                "images/pictures/projet-aro1.png",
+                                "images/pictures/projet-aro3.png",
+                                "images/pictures/projet-aro2.png"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Stackers",
+                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
+                            "tags": ["Python", "Django", "JavaScript"]
+                        },
+                        "fr": {
+                            "title": "Stackers",
+                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
+                            "tags": ["Python", "Django", "JavaScript"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/projet-aro-logo.png",
+                        "fa": "",
+                        "faColors": {"bg": "#EEE", "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://cash.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": [
+                                "images/pictures/projet-aro01.png",
+                                "images/pictures/projet-aro1.png",
+                                "images/pictures/projet-aro3.png",
+                                "images/pictures/projet-aro2.png"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Aro OTM",
+                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
+                            "tags": ["Python", "Django", "JavaScript"]
+                        },
+                        "fr": {
+                            "title": "Aro OTM",
+                            "text": "Un site web financier construit avec <b>Next.js</b>, permettant aux utilisateurs de <b>suivre les budgets</b> et de gérer leur argent avec des graphiques interactifs et des analyses.",
+                            "tags": ["Python", "Django", "JavaScript"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

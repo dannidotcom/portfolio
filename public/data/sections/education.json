@@ -1,0 +1,117 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+
+        "es": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        },
+
+        "fr": {
+            "title": "Éducation",
+            "title_long_prefix": "C'est mon",
+            "title_long": "**Contexte** Éducatif"
+        },
+
+        "ko": {
+            "title": "교육",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**교육적** 배경"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+
+                {
+                    "icon": {
+                        "img": "images/pictures/lrr.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2014",
+                        "end": "09/01/2018"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Series C **Baccalaureat**",
+                            "info": "Raherivelo Ramamonjy High School, Fianaratsoa",
+                            "text": "The Series C Baccalaureate is a diploma focused on science and technical studies, emphasizing mathematics, physics, and chemistry, and preparing students for higher education in technical and scientific fields.",
+                            "tags": []
+                        },
+                        "fr": {
+                            "title": "**Baccalauréat** série C",
+                            "info": "Lycée RAHERIVELO RAMAMONJY, Fianaratsoa",
+                            "text": "Le Baccalauréat série C est un diplôme axé sur les sciences et techniques, mettant l'accent sur les mathématiques, la physique et la chimie, et préparant aux études supérieures dans les domaines techniques et scientifiques.",
+                            "tags": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/emit.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "03/01/2019",
+                        "end": "07/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bachelor's Degree** in Internet and Intranet Application Development",
+                            "info": "University of Fianaratsoa EMIT",
+                            "text": "<p>I completed a comprehensive Bachelor's program focused on key IT skills, including:</p> <ul><li>Database administration</li><li>Network and systems administration</li><li>Client/server application development</li></ul> <p class='mt-3'>I applied this knowledge and expertise to design and manage efficient IT solutions, combining academic rigor with practical implementation to address real-world industry challenges.</p>",
+                            "tags": ["Algorithms", "Database", "Programming", "Web", "Mobile"]
+                        },
+                        "fr": {
+                            "title": "**Licence** en Développement d'Applications Internet et Intranet",
+                            "info": "EMIT Université de Fianaratsoa",
+                            "text": "<p>J'ai terminé un programme de Licence complet axé sur des compétences clés en informatique, y compris:</p> <ul><li>Administration des bases de données</li><li>Administration des réseaux et systèmes informatiques</li><li>Développement d'applications client/serveur</li></ul> <p class='mt-3'>J'ai appliqué ces connaissances et compétences pour concevoir et gérer des solutions informatiques efficaces, alliant rigueur académique et mise en œuvre pratique pour répondre aux défis réels du secteur.</p>",
+                            "tags": ["Algorithmes", "Base des donnees", "Programmation", "Web", "Mobile"]
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/emedia.png",
+                        "fa": "",
+                        "faColors": {"bg": "#fff", "fill": null}
+                    },
+                    "dates": {
+                        "start": "04/01/2023",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Master's Degree** in Information Systems Management",
+                            "info": "E-MEDIA University",
+                            "text": "<p>After completing a Master's Degree in Information Systems Management, the acquired skills include: </p> <ul><li>Planning, coordinating, and monitoring technological projects</li><li>Understanding cybersecurity challenges and implementing protection measures</li><li>Ability to extract, analyze, and interpret data for strategic decision-making</li><li>Administration, optimization, and data security</li><li>Proficiency in development languages for systems management</li></ul>",
+                            "tags": ["IT Project Management", "Cybersecurity", "Programming", "Algorithms", "Data Analysis", "IoT and Security"]
+                        },
+                        "fr": {
+                            "title": "**Master** en Management des Systèmes d'Information",
+                            "info": "Université E-MEDIA",
+                            "text": "<p>EAprès un Master en Management des Systèmes d'Information, les compétences acquises incluent: </p> <ul><li>Planification, coordination et suivi des projets technologiques</li><li>Compréhension des enjeux de la sécurité informatique et mise en place de mesures de protection</li> <li>Capacité à extraire, analyser et interpréter les données pour des décisions stratégiques.</li><li>Administration, optimisation et sécurisation des données.</li><li>Maîtrise des langages de développement pour la gestion des systèmes.</li></ul> ",
+                            "tags": ["Gestion de projets IT", "Cyber sécurité", "Programmation", "Algorithmes", "Analyse de données","IOT et sécurisation"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

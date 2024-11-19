@@ -1,0 +1,187 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Alphonse!**"
+        },
+
+        "fr": {
+            "title": "Salut !",
+            "title_menu": "À propos",
+            "title_long_prefix": "Salut...",
+            "title_long": "Je suis **Alphonse!**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {},
+                "fr": {},
+                "ko": {}
+            },
+
+            "items": [
+                {
+                    "value": "Antananarivo",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "alphonse.danni@gmail.com",
+                    "links": [
+                        {"href": "mailto:alphonse.danni@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@dannidotcom",
+                    "links": [
+                        {"href": "https://github.com/dannidotcom"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},    
+                "fr": {"title": "**Un peu** à propos de moi..."}  
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/software-developer.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"text": "<p>I am a FullStack developer with <b>over 3 years</b> of experience in the IT field, specializing in both backend and frontend development. Over time, I have developed a strong sense of listening, the ability to make quick and effective decisions, as well as great adaptability to change. My expertise includes the ability to work both independently and as part of a team to achieve ambitious goals and deliver high-quality solutions.</p>I look forward to collaborating <b>with you !</b>"},
+                        "fr": {"text": "<p>Je suis développeur FullStack avec <b>plus de 3 ans</b> d'expérience dans le domaine IT, spécialisé dans le développement backend et frontend.Au fil du temps, j'ai développé un sens aigu de l'écoute, une capacité à prendre des décisions rapides et efficaces, ainsi qu'une grande adaptabilité face aux changements. Mon expertise inclut la capacité à travailler aussi bien de manière autonome qu'en équipe pour atteindre des objectifs ambitieux et produire des solutions de qualité.</p><p> Je suis impatient de collaborer <b>avec vous !</b></p>"}
+                        
+                    }
+                }
+            ]
+        },
+
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests** "},
+                "fr": { "title": "Intérêts **personnels**" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-laptop",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Programming",
+                            "info": "Exploring and developing personal projects to enhance my skills using various languages and frameworks."
+                        },                        
+                        "fr": {
+                            "title": "Programmation",
+                            "info": "Explorer et développer des projets personnels pour approfondir mes compétences en utilisant divers langages et frameworks."                  
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-globe",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en":{
+                            "title": "Surfing the Internet",
+                            "info": "Exploring online resources to stay informed, learn, and discover diverse information."
+                        },
+                        "fr":{
+                            "title": "Surfer sur Internet",
+                            "info": "Explorer des ressources en ligne pour s'informer, apprendre et découvrir des informations variées."
+                        }                        
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-music",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Listening to Music",
+                            "info": "Enjoying various music genres to relax, get inspired, and enhance creativity."
+                        },
+                        "fr": {
+                            "title": "Écouter de la musique",
+                            "info": "Apprécier différents genres musicaux pour se détendre, s'inspirer et stimuler la créativité."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-futbol",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Team Sports",
+                            "info": "Participating in team sports to build teamwork skills, stay active, and enjoy competitive play."
+                        },
+                        "fr": {
+                            "title": "Sports collectifs",
+                            "info": "Participer à des sports collectifs pour développer l'esprit d'équipe, rester actif et apprécier le jeu compétitif."
+                        }
+
+                    }
+                }
+            ]
+        }
+
+       
+    ]
+}

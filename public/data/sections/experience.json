@@ -1,0 +1,154 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        },
+
+        "fr": {
+            "title": "Expérience",
+            "title_long_prefix": "Résumé de mon",
+            "title_long": "Parcours **Professionel**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/adv.png",
+                        "fa": "",
+                        "faColors": {"bg": "#fff", "fill": "#fff"}
+                    },
+                    "dates": {
+                        "start": "01/08/2023",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**FullStack** Developer",
+                            "info": "Advences.",
+                            "text": "<p>As a fullstack web developer, I collaborate with the team to design and implement comprehensive solutions focused on:</p><ul><li>Web application security</li><li>Development and maintenance of web solutions using front-end and back-end technologies</li><li>Developing and customizing Odoo modules</li><li>Integrating Odoo modules with other systems and applications</li><li>Identifying and fixing bugs reported by users</li></ul><p class='mt-3'>Our goal is to ensure a robust and efficient web infrastructure.</p>",
+                            "tags": ["Python", "Odoo", "RESTful APIs", "PHP", "Symfony", "JavaScript", "PostgreSQL", "MySQL"]
+                        },
+                        "fr": {
+                            "title": "Développeur **Web FullStack**",
+                            "info": "Advences.",
+                            "text": "<p>En tant que développeur web fullstack, je collabore avec l'équipe pour concevoir et mettre en œuvre des solutions complètes, axées sur :</p> <ul><li>Sécurité des applications web</li><li>Développement et maintenance de solutions web en utilisant destechnologies front-end et back-end</li><li>Développer et personnaliser des modules Odoo.</li><li>Intégrer des modules Odoo avec d'autres systèmes et applications.</li><li>Identifier et corriger les bugs signalés par les utilisateurs</li></ul> <p class='mt-3'>Notre objectif est de garantir une infrastructure web robuste et efficace.</p>",
+                            "tags": ["Python", "Odoo", "RESTful APIs", "PHP", "Symfony", "JavaScript", "PostgreSQL", "MySQL"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/aro.png",
+                        "fa": "",
+                        "faColors": {"bg": "#7cd99c", "fill": null}
+                    },
+                    "dates": {
+                        "start": "07/01/2022",
+                        "end": "10/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Python** Developer",
+                            "info": "Assurances ARO",
+                            "text": "<p>As a Python Django intern developer, I collaborate with the team to design and deploy comprehensive solutions, focusing on:</p><ul><li>Participation in project design</li><li>Creating server-side APIs and integrating data with other systems</li><li>Implementing secure authentication mechanisms</li><li>Developing the application's user interface</li><li>Creating reports to facilitate decision-making</li></ul><p class='mt-3'>The goal of the internship is to create a platform to simplify insurance payment management via mobile banking, automate processes, enhance instant communication, and manage user accounts with their roles.</p>",
+                            "tags": ["Python", "Django","Javascript", "ChartJS", "Bootstrap", "PostgreSQL", "SQL server", "Git", "GitLab","Nginx"]
+                        },
+                        "fr": {
+                            "title": "Développeur **Python**",
+                            "info": "Assurances ARO",
+                            "text": "<p>En tant que stagiaire développeur Python Django, je collabore avec l'équipe pour concevoir et déployer des solutions complètes, en me concentrant sur :</p><ul><li>Participation à la conception du projet</li><li>Création d'APIs côté serveur et intégration des données avec d'autres systèmes</li><li>Mise en place de mécanismes d'authentification sécurisés</li><li>Développement de l'interface utilisateur de l'application</li><li>Création de rapports pour faciliter la prise de décision</li></ul><p class='mt-3'>L'objectif du stage est de créer une plateforme pour simplifier la gestion des paiements d'assurance via le mobile banking, automatiser les processus, améliorer la communication instantanée et gérer les comptes utilisateurs avec leurs rôles.</p>",
+                            "tags": ["Python", "Django","Javascript", "ChartJS", "Bootstrap", "PostgreSQL", "SQL server", "Git", "GitLab","Nginx"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/tanit.jpeg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "07/01/2022",
+                        "end": "10/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Web** Developer",
+                            "info": "TAN'IT Technologie.",
+                            "text": "<p>As a web developer, I actively contribute within the team to the design and development of complete web solutions, focusing on:</p><ul><li>Participation in project design</li><li>Server-side development of the application</li><li>Design and development of the user interface</li><li>Collaboration with the infrastructure team for the deployment and management of web services on servers</li></ul>",
+                            "tags": ["PHP", "Symfony", "JavaScript", "Bootstrap", "HTML5", "CSS3", "Git"]
+                        },
+                        "fr": {
+                            "title": "Développeur **Web**",
+                            "info": "TAN'IT Technologie.",
+                            "text": "<p>En tant que développeur web, je contribue activement au sein de l'équipe à la conception et au développement de solutions web complètes, en mettant l'accent sur :</p><ul><li>Participation à la conception du projet</li><li>Développement côté serveur de l'application</li><li>Conception et développement de l'interface utilisateur</li><li>Collaboration avec l'équipe infrastructure pour le déploiement et la gestion des services web sur les serveurs</li></ul>",
+                            "tags": ["PHP", "Symfony", "JavaScript", "Bootstrap", "HTML5", "CSS3", "Git"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/camson.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "03/01/2022",
+                        "end": "07/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Symfony/React** Developer",
+                            "info": "Camson Groupe",
+                            "text": "<p>As an intern developer, the missions to accomplish are as follows:</p><ul><li>Design and develop the project management web application</li><li>Implement a database for efficient data management</li><li>Create an intuitive user interface</li><li>Automate processes to avoid repetitive tasks</li><li>Integrate a secure authentication system</li><li>Test the application to ensure its performance and usability</li></ul><p class='mt-3'>The goal of the internship is to develop a dynamic project management web application that offers efficient data handling, an intuitive interface, and integrates an authentication system for security.</p>",
+                            "tags": ["PHP", "MySQL", "Symfony", "React", "TypeScript", "Git", "REST API"]
+                        },
+                        "fr": {
+                            "title": "Développeur **Symfony/React**",
+                            "info": "Camson Groupe",
+                            "text": "<p>En tant que stagiaire développeur Symfony/React, les missions à accomplir sont les suivantes :</p><ul><li>Concevoir et développer l'application web de gestion de projet</li><li>Implémenter une base de données pour une gestion efficace des données</li><li>Créer une interface utilisateur intuitive</li><li>Automatiser les processus pour éviter les tâches répétitives</li><li>Intégrer un système d'authentification sécurisé</li><li>Tester l'application pour assurer sa performance et sa maniabilité</li></ul><p class='mt-3'>L'objectif du stage est de développer une application web dynamique de gestion de projet, offrant une manipulation efficace des données, une interface intuitive, et intégrant un système d'authentification pour assurer la sécurité.</p>",
+                            "tags": ["PHP", "MySQL", "Symfony", "React", "TypeScript", "Git", "REST API", "Bootstrap"]
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                    "img": "images/pictures/ubs.png",
+                    "fa": "",
+                    "faColors": {"bg": null, "fill": null}
+                },
+                "dates": {
+                    "start": "03/01/2021",
+                    "end": "06/01/2021"
+                },
+                "locales": {
+                    "en": {
+                        "title": "**JavaScript** Developer",
+                        "info": "UBS",
+                        "text": "<p>The missions to accomplish are as follows:</p><ul><li>Participation in project design</li><li>Development of APIs (Back-end)</li><li>Development of the Front-end</li></ul>",
+                        "tags": ["PHP", "MySQL", "Symfony", "React", "TypeScript", "Git", "REST API"]
+                    },
+                    "fr": {
+                        "title": "Développeur **JavaScript**",
+                        "info": "UBS",
+                        "text": "<p>Voici les missions à réaliser :</p><ul><li>Participation à la conception du projet</li><li>Développement des APIs (Back-end)</li><li>Développement de la partie Front-end</li></ul>",
+                        "tags": ["PHP", "MySQL", "Symfony", "React", "TypeScript", "Git", "REST API"]
+                    }
+                }
+            }
+                
+            ]
+        }
+    ]
+}

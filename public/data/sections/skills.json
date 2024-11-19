@@ -1,0 +1,547 @@
+{
+    "locales": {
+        "en": {
+            "title": "Skills",
+            "title_long_prefix": "Explore",
+            "title_long": "My **Skill Set**"
+        },
+        "fr": {
+            "title": "Capacités",
+            "title_long_prefix": "Explorez",
+            "title_long": "Mes **Compétences**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "capabilities",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "/images/pictures/auto.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Process** automation",
+                            "text": "I am capable of automating processes to optimize repetitive tasks and enhance efficiency. This includes creating scripts and integrating software solutions."
+                        },
+                        "fr": {
+                            "title": "**Automatisation** de processus",
+                            "text": "Je suis capable d'automatiser des processus pour optimiser les tâches répétitives et améliorer l'efficacité. Cela inclut la création de scripts et l'intégration de solutions logicielles."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "/images/pictures/web.jpg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**App** creation",
+                            "text": "I am a full-stack web developer capable of building websites from start to finish."
+                        },
+                        "fr": {
+                            "title": "Création d'**applications**",
+                            "text": "Je suis un développeur full-stack capable de créer des sites web de A à Z"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/api1.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "REST **APIs**",
+                            "text": "I am capable of developing REST APIs to enable communication between different applications and services, ensuring performance and security."
+                        },
+                        "fr": {
+                            "title": "APIs **REST**",
+                            "text": "Je suis capable de développer des API REST pour permettre la communication entre différentes applications et services, en assurant la performance et la sécurité."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/graphql.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "GRAPHQL **API**",
+                            "text": "I can develop APIs using the GraphQL query language."
+                        },
+                        "fr": {
+                            "title": "API **GRAPHQL**",
+                            "text": "Je peux développer des API utilisant le langage de requête GraphQL."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/micro.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Modular **architecture**",
+                            "text": "I am capable of designing and developing microservices to build modular and scalable applications"
+                        },
+                        "fr": {
+                            "title": "**Architecture** modulaire",
+                            "text": "Je suis capable de concevoir et de développer des microservices pour créer des applications modulaires et évolutives."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/internet-security.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Information **Security**",
+                            "text": "I am capable of ensuring information security by protecting data and preventing cyber threats"
+                        },
+                        "fr": {
+                            "title": "**Sécurité** de l'information",
+                            "text": "Je suis capable d'assurer la sécurité de l'information en protégeant les données et en prévenant les cybermenaces."
+                        }
+                    }
+                }
+            ]
+
+        },
+
+        {
+            "id": "backend_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Backend"}
+            },
+
+            "items": [
+
+                {
+                    "icon": {
+                        "img": "/images/pictures/python.png",
+                        "fa": "fa-brands fa-python",
+                        "faColors": {"bg": "", "fill": "#EEE"}
+                    },
+                    "value": 85,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "Python",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "/images/pictures/django.png",
+                        "fa": "fa-brands fa-python",
+                        "faColors": {"bg": "", "fill": "#EEE"}
+                    },
+                    "value": 80,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "Django",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-node",
+                        "faColors": {"bg": "", "fill": ""}
+                    },
+                    "value": 70,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "Node.js",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "/images/svg/nest.svg",
+                        "fa": "",
+                        "faColors": {"bg": "#EEE", "fill": "#EEE"}
+                    },
+                    "value": 60,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "NestJS",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "/images/pictures/java.png",
+                        "fa": "",
+                        "faColors": {"bg": "#EEE", "fill": "#EEE"}
+                    },
+                    "value": 75,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "Java",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "/images/pictures/spring.jpeg",
+                        "fa": "",
+                        "faColors": {"bg": "", "fill": ""}
+                    },
+                    "value": 70,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "Spring",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-php",
+                        "faColors": {"bg": "", "fill": ""}
+                    },
+                    "value": 80,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "PHP",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-symfony",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "value": 80,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "Symfony",
+                            "info": null
+                        }
+                    }
+                },{
+                    "icon": {
+                        "img": "/images/pictures/sqlserver.png",
+                        "fa": null,
+                        "faColors": {"bg": "#EEE", "fill": ""}
+                    },
+                    "value": 60,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "SQL Server",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "/images/pictures/mysql.png",
+                        "fa": null,
+                        "faColors": {"bg": "", "fill": ""}
+                    },
+                    "value": 60,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "MySQL",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "/images/pictures/postgre.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "value": 90,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "PostgreSQL",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-docker",
+                        "faColors": {"bg": "#2496ED", "fill": "#EEE"}
+                    },
+                    "value": 50,
+                    "locales": {
+                        "en": {
+                            "title": "Docker",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-git",
+                        "faColors": {"bg": "", "fill": null}
+                    },
+                    "value": 95,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "Git",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "/images/pictures/mongodb.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "value": 50,
+                
+                    "locales": {
+                        "en": {
+                            "title": "MongoDB",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "front_end_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Frontend"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-html5",
+                        "faColors": {"bg": "#f59842", "fill": null}
+                    },
+                    "value": 95,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "HTML5",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-css3",
+                        "faColors": {"bg": "#2496ED", "fill": "#EEE"}
+                    },
+                    "value": 70,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "CSS3",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-square-js",
+                        "faColors": {"bg": "#f2bc27", "fill": null}
+                    },
+                    "value": 75,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "/images/pictures/typescript.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "value": 65,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "TypeScript",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-react",
+                        "faColors": {"bg": "#EEE", "fill": "#273bf2"}
+                    },
+                    "value": 65,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-angular",
+                        "faColors": {"bg": "#fff", "fill": "#e01b24"}
+                    },
+                    "value": 55,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "Angular",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-bootstrap",
+                        "faColors": {"bg": "#7952B3", "fill": "#EEE"}
+                    },
+                    "value": 90,
+                    
+                    "locales": {
+                        "en": {
+                            "title": "Bootstrap",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "languages",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": { "title": "Languages" },
+                "fr": { "title": "Langues" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/flags/en.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "info": "Average proficiency in English; able to understand and participate in simple conversations, with good reading comprehension.",
+                            "tags": ["Intermediate"]
+                        },
+                        "fr": {
+                            "title": "Anglais",
+                            "info": "Compétence moyenne en anglais capable de comprendre et de participer à des conversations simples, avec une bonne compréhension de l'écrit.",
+                            "tags": ["Intermédiaire"]
+                        }                        
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/flags/fr.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "French",
+                            "info": "Fluent in both spoken and written French; confident in professional communication.",
+                            "tags": ["Fluent"]
+                        },
+                        "fr": {
+                            "title": "Français",
+                            "info": "Fluent à l'oral et à l'écrit; confiant dans la communication professionnelle.",
+                            "tags": ["Courant"]
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/flags/mg.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "Malagasy",
+                            "info": "Native proficiency in Malagasy, full mastery in both spoken and written forms.",
+                            "tags": ["Native"]
+                        },
+                        "fr": {
+                            "title": "Malgache",
+                            "info": "Compétence maternelle en malgache, maîtrise complète à l'oral et à l'écrit.",
+                            "tags": ["Maternel"]
+                        }                        
+                    }
+                }
+            ]
+        }
+    ]
+}

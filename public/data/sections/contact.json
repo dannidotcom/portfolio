@@ -1,0 +1,107 @@
+{
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact** Me"
+        },
+
+        "fr": {
+            "title": "Contact",
+            "title_long_prefix": "N'hésitez pas à",
+            "title_long": "Me **Contacter**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_form",
+            "component": "ArticleContactForm",
+            "config": {},
+            "locales": {
+                "en": {"title": "Send me a **message**"},
+                "fr": {"title": "Envoyez-moi un **message**"}
+               
+            },
+
+            "items": null
+        },
+
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Or if you **prefer**..."},       
+                "fr": {"title": "Ou si vous **préférez**..."}          
+            },
+
+            "items": [
+                {
+                    "value": "+261 32 46 236 39",
+                    "links": [
+                        {"href": "tel:261324623639"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "fr": {"title": "Téléphone"}
+                       
+                    }
+                },
+
+                {
+                    "value": "alphonse.danni@gmail.com",
+                    "links": [
+                        {"href": "mailto:alphonse.danni@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"}
+                        
+                    }
+                },
+
+                {
+                    "value": "@alphonse",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/alphonse-solofondraibe-b424b91a3/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Linkedin"}
+                    }
+                },
+
+                {
+                    "value": "Alphonse",
+                    "links": [
+                        {"href": "https://www.facebook.com/solofondraibe.donnealphonse"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-facebook",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Facebook"}
+                    }
+                }
+            ]
+        }
+    ]
+}
