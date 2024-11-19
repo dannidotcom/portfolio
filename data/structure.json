@@ -1,0 +1,81 @@
+{
+    "sections": [
+        {
+            "id": "about",
+            "categoryId": "home",
+            "jsonPath": "/data/sections/cover.json",
+            "faIcon": "fa-solid fa-address-card"
+        },
+        {
+            "id": "experience",
+            "categoryId": "background",
+            "jsonPath": "/data/sections/experience.json",
+            "faIcon": "fa-solid fa-briefcase"
+        },
+        {
+            "id": "education",
+            "categoryId": "background",
+            "jsonPath": "/data/sections/education.json",
+            "faIcon": "fa-solid fa-graduation-cap"
+        },
+
+        {
+            "id": "skills",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/skills.json",
+            "faIcon": "fa-solid fa-tools"
+        },
+
+        {
+            "id": "portfolio",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/portfolio.json",
+            "faIcon": "fa-solid fa-folder-open"
+        },
+
+        {
+            "id": "contact",
+            "categoryId": "more",
+            "jsonPath": "/data/sections/contact.json",
+            "faIcon": "fa-solid fa-pen-to-square"
+        }
+    ],
+
+    "categories": [
+        {
+            "id": "home",
+            "faIcon": "fa-solid fa-home",
+            "locales": {
+                "en": {"title": "Home"},
+                "fr": {"title": "Accueil"}
+            }
+        },
+
+        {
+            "id": "background",
+            "faIcon": "fa-solid fa-clock",
+            "locales": {
+                "en": {"title": "History"},
+                "fr": {"title": "Parcours"}
+            }
+        },
+
+        {
+            "id": "showcase",
+            "faIcon": "fa-solid fa-images",
+            "locales": {
+                "en": {"title": "Showcase"},
+                "fr": {"title": "Vitrine"}
+            }
+        },
+
+        {
+            "id": "more",
+            "faIcon": "fa-solid fa-plus",
+            "locales": {
+                "en": {"title": "More"},
+                "fr": {"title": "Plus"}
+            }
+        }
+    ]
+}

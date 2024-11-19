@@ -1,0 +1,93 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+
+        "fr": {
+            "title": "Portfolio",
+            "title_long_prefix": "Découvrez",
+            "title_long": "Mon **Portfolio**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Apps"},
+                        "fr": {"singular": "App", "plural": "Apps"}
+                        
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"},
+                        "fr": {"singular": "Site web", "plural": "Web"}
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {"singular": "Utility", "plural": "Utilities"},
+                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"}
+                    }
+                }
+            ],
+
+            "items": [
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/projet-aro-logo.png",
+                        "fa": "",
+                        "faColors": {"bg": "#fff", "fill": null}
+                    },
+
+                    "links": [
+                        
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:7",
+                            "images": [
+                                "images/pictures/projet-aro01.png",
+                                "images/pictures/projet-aro1.png",
+                                "images/pictures/projet-aro3.png",
+                                "images/pictures/projet-aro2.png"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "ARO OTM",
+                            "text": "A web application developed with <b>Django</b>, allowing the simplification of insurance payment management through mobile banking.",
+                            "tags": ["Python", "Django", "JavaScript"]
+                        },
+                        "fr": {
+                            "title": "ARO OTM",
+                            "text": "Une application web développée avec <b>Django </b>, permettant simplifier la gestion des paiements d'assurance via le mobile banking.",
+                            "tags": ["Python", "Django", "JavaScript"]
+                        }
+                    }
+                }
+
+               
+            ]
+        }
+    ]
+}
