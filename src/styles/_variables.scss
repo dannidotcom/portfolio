@@ -33,7 +33,7 @@ $dark: #111;
 $light: #EEE;
 
 /** COLORS - static **/
-$loader-background-color: #111111;
+$loader-background-color: #090a17;
 
 :root {
     --mobile-layout-breakpoint: md;
@@ -55,9 +55,9 @@ $loader-background-color: #111111;
     --theme-soft-2: #252525;
     --theme-soft-3: #292929;
 
-    --theme-highlight: #682380;
-    --theme-highlight-2: #A56ABD;
-    --theme-highlight-3: #9b709c;
+    --theme-highlight: #e6ae3e;
+    --theme-highlight-2: #FFF;
+    --theme-highlight-3: #d1ddb1;
 
     --theme-dark: #101010;
     --theme-dark-opacity: rgba(16, 16, 16, 0.2);
@@ -76,7 +76,7 @@ $loader-background-color: #111111;
     --theme-nav-secondary: #EEEEEE;
     --theme-nav-light: #1f2022;
     --theme-nav-highlight: #fff;
-    --theme-nav-selected: #682380;
+    --theme-nav-selected: #e6ae3e;
 
     --theme-scrollbar-track: #111111;
     --theme-scrollbar-thumb: #32343a;
@@ -85,7 +85,7 @@ $loader-background-color: #111111;
     --theme-danger: #730808;
 }
 
-/** COLORS - light theme palette **/
+/** COLORS - light theme palette 
 [data-theme="light"] {
     --theme-main: #ffffff;
     --theme-main-2: #f5f5f5;
@@ -130,7 +130,7 @@ $loader-background-color: #111111;
 
     --theme-danger: #d9534f;
 }
-
+**/
 .bg-dark {
     background-image: url('/images/css/bg-dark.png');
     background-size: cover;

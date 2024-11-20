@@ -12,6 +12,7 @@ import ConfirmationWindow from "/src/components/modals/ConfirmationWindow.jsx"
 import {useFeedbacks} from "/src/providers/FeedbacksProvider.jsx"
 
 
+
 function App() {
     const {listImagesForCache} = useData()
 

@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
             <Preloader>
                 <AppProviders>
                     <App/>
+                    
                 </AppProviders>
             </Preloader>
         </StrictMode>
