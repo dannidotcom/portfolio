@@ -46,14 +46,14 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Series C **Baccalaureat**",
+                            "title": "Scientific **Baccalaureate**",
                             "info": "Raherivelo Ramamonjy High School, Fianaratsoa",
                             "text": "The Series C Baccalaureate is a diploma focused on science and technical studies, emphasizing mathematics, physics, and chemistry, and preparing students for higher education in technical and scientific fields.",
                             "tags": []
                         },
                         "fr": {
-                            "title": "**Baccalauréat** série C",
-                            "info": "Lycée RAHERIVELO RAMAMONJY, Fianaratsoa",
+                            "title": "**Baccalauréat** série C scientifique",
+                            "info": "Lycée RAHERIVELO RAMAMONJY, Fianarantsoa",
                             "text": "Le Baccalauréat série C est un diplôme axé sur les sciences et techniques, mettant l'accent sur les mathématiques, la physique et la chimie, et préparant aux études supérieures dans les domaines techniques et scientifiques.",
                             "tags": null
                         }
@@ -106,7 +106,7 @@
                         "fr": {
                             "title": "**Master** en Management des Systèmes d'Information",
                             "info": "Université E-MEDIA",
-                            "text": "<p>EAprès un Master en Management des Systèmes d'Information, les compétences acquises incluent: </p> <ul><li>Planification, coordination et suivi des projets technologiques</li><li>Compréhension des enjeux de la sécurité informatique et mise en place de mesures de protection</li> <li>Capacité à extraire, analyser et interpréter les données pour des décisions stratégiques.</li><li>Administration, optimisation et sécurisation des données.</li><li>Maîtrise des langages de développement pour la gestion des systèmes.</li></ul> ",
+                            "text": "<p>Après un Master en Management des Systèmes d'Information, les compétences acquises incluent: </p> <ul><li>Planification, coordination et suivi des projets technologiques</li><li>Compréhension des enjeux de la sécurité informatique et mise en place de mesures de protection</li> <li>Capacité à extraire, analyser et interpréter les données pour des décisions stratégiques.</li><li>Administration, optimisation et sécurisation des données.</li><li>Maîtrise des langages de développement pour la gestion des systèmes.</li></ul> ",
                             "tags": ["Gestion de projets IT", "Cyber sécurité", "Programmation", "Algorithmes", "Analyse de données","IOT et sécurisation"]
                         }
                     }

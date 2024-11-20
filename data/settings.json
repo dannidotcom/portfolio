@@ -4,14 +4,14 @@
     "fullScreenButtonEnabled": true,
 
     "preloader": {
-        "enabled": false,
+        "enabled": true,
         "title": "<b>Portfolio</b>",
         "subtitle": "by Alphonse"
     },
 
     "profile": {
         "name": "Alphonse",
-        "stylizedName": "<strong>Donné **Alphonse**</strong>",
+        "stylizedName": "<strong>**<**Donné **Alphonse />**</strong>",
         "logoUrl": "images/svg/logo.svg",
         "profilePictureUrl": "images/pictures/avatar.jpg",
 
